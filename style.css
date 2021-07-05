@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courgette', cursive;
+}
+body{
+    background-color: rgb(255, 214, 223);
+}
+
+#title{
+    background-color: rgb(248, 58, 89);
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    /* padding: 20px; */
+}
+
+.middle_title{
+    text-align: center;
+    color: turquoise;
+    font-size: 100px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.form input{
+    text-decoration: none;
+    border: 5px solid rgb(71, 122, 197);
+    /* border-radius: 5%; */
+    padding: 10px;
+    margin: auto;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.form button{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.form #check_me{
+    background-color: rgb(236, 112, 112);
+    color: white;
+}
+.form #check_me:hover, .form #restart_game:hover{
+    background-color: rgb(248, 58, 89);
+    /* text-shadow: seashell 1px 1px; */
+    color:yellow;
+}
+.form #restart_game{
+    background-color: rgb(185, 70, 70);
+    color: white;
+}
+
+
+/* dialog box */
+.box{
+    padding: 0;
+    width: 330px;
+    height: 40px;
+    margin: auto;
+    padding-top:10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.won
+{
+    background: linear-gradient(rgb(175, 238, 175), rgb(118, 252, 118),rgb(175, 238, 175));
+    color: green;
+}
+.warning
+{
+    background:linear-gradient(rgb(240, 240, 177),rgb(248, 248, 142),rgb(240, 240, 177));
+    color: rgb(226, 131, 67);
+}
+
+/* history */
+#history
+{
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.list-group{
+    list-style: none;
+    width: 330px;
+}
+.list-group-item:nth-child(even){
+    background-color: rgb(230, 230, 230);
+}
+.list-group-item:nth-child(odd){
+    background-color: rgb(253, 218, 223);
+}
+.list-group-item{
+    padding: 15px;
+    border:2px solid rgb(88, 87, 87);
+}
